@@ -1,5 +1,12 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
 }
 
 .App-logo {
@@ -36,3 +43,54 @@
     transform: rotate(360deg);
   }
 }
+
+/* HEADER STYLE START*/
+
+h1 {
+  font-size: 4rem;
+}
+
+/* The list span and daily goals header are within a div for even space, so their div uses flex box as well so the header text and list amoji are side by side */
+
+header, header > div, .singleGoalsContainer, .singleGoalEmojiContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/* This determines the space between the DailyGoals header and the list emoji, and the refresh emoji */
+
+header {
+ justify-content: space-between;
+ width: 100%;
+}
+
+.pageEndPadding {
+  padding-right: 10%;
+}
+
+header, header > div {
+  align-items: center;
+}
+
+.emoji {
+  font-size: 4rem;
+}
+
+/* HEADER STYLE END */
+
+/* DAILY GOALS BODY */
+
+input, button, .goalText {
+  font-size: 2.7rem;
+}
+
+.singleGoalsContainer {
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+/* DAILY GOALS BODY */
