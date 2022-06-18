@@ -46,13 +46,13 @@
 
 /* HEADER STYLE START*/
 
-h1 {
+h1, h2 {
   font-size: 4rem;
 }
 
 /* The list span and daily goals header are within a div for even space, so their div uses flex box as well so the header text and list amoji are side by side */
 
-header, header > div, .singleGoalsContainer, .singleGoalEmojiContainer {
+header, header > div, .singleGoalsContainer, .singleGoalEmojiContainer, .singleSuccessContainer {
   display: flex;
   flex-direction: row;
 }
@@ -80,11 +80,11 @@ header, header > div {
 
 /* DAILY GOALS BODY */
 
-input, button, .goalText {
+input, button, .goalText, .successText {
   font-size: 2.7rem;
 }
 
-.singleGoalsContainer {
+.singleGoalsContainer,.singleSuccessContainer {
   align-items: center;
   justify-content: space-between;
 }
@@ -94,3 +94,21 @@ section {
   flex-direction: column;
 }
 /* DAILY GOALS BODY */
+
+/* DAILY WINS HEADER */
+.successesHeaderContainer {
+  border-bottom: 2px solid black;
+}
+
+/* DAILY WINS HEADER */
+
+/* DAILY WINS BODY */
+
+.singleSuccessContainer button {
+  margin-right: 10%;
+  text-align: center;
+  width: .85rem;
+  min-width: .85rem;
+}
+
+/* DAILY WINS BODY */

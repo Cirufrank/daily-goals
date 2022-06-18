@@ -7,15 +7,13 @@ function DailyGoalsHeader() {
     }
     
     return (
-        <>
-            <header>
-                <div>
-                    <h1>DAILY GOALS</h1>
-                    <span className='emoji'>📝</span>
-                </div>
-                <span className='emoji pageEndPadding' id="refreshPage" onClick={resetLocalStorage}>🔃</span>
-            </header>
-        </>
+        <header>
+            <div>
+                <h1>DAILY GOALS</h1>
+                <span className='emoji'>📝</span>
+            </div>
+            <span className='emoji pageEndPadding' id="refreshPage" onClick={resetLocalStorage}>🔃</span>
+        </header>
     )
 }
 
