@@ -8,6 +8,8 @@ Need a fresh start? We got you covered! Just press the restart button 🔃 and a
 
 ## **Daily Goals live site:** https://my-daily-goals.netlify.app/</br>
 
+![](https://im4.ezgif.com/tmp/ezgif-4-a1a1b73904.gif)
+
 ## How It's Made:
 This is a fully-responsize Single Page Application created with React. Why React you say? Well, through use of the virtual DOM, React is able to update only the parts of the page that have chenged. This greatly enhances the speed of the website's performance when adding and updating items. Additionally, through use of JSX (or JavaScript if preffered) you are able to conditionally write the compontents of HTML to be rendered on the client's side, and use JavaScript directly within your code. Additionally, compontents allow you to render the same code within different pages or places within the spplication withinout having to re-wite the code. This makes for a more modular application. 
 
