@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import DailyGoalsHeader from './components/DailyGoalsHeader';
 import DailyGoals from './components/DailyGoals';
@@ -7,12 +6,11 @@ import DailySuccesses from './components/DailySuccesses';
 
 function App() {
   return (
-    
     <div className="App">
       <DailyGoalsHeader />
-     <DailyGoals />
-    <DailySuccessesHeader />
-   <DailySuccesses />
+      <DailyGoals />
+      <DailySuccessesHeader />
+      <DailySuccesses />
     </div>
   );
 }

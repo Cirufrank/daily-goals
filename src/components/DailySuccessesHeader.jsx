@@ -1,5 +1,6 @@
 import React from 'react';
 
+//This creates a header component for the daily wins (completed goals) to go under
 function DailySuccessesHeader() {
     return (
         <header>
