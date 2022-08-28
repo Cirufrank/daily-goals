@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Daily Goals Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://media.giphy.com/media/jO2VAnKyAtgcSWxxVf/giphy.gif)
 
-## Available Scripts
+Hey, I get it. You sometimes don't feel like you're getting anything done in the sea of tasks you have on your plate. Well let me let you in on a secret... you are accomplishing FAR more than you know. Don't believe me? Well, try out this lovely daily goals web application! Each day come on over and set some goals that you'd like to complete by the end of the day. Then, as you finish them, retrun to the website and given them a nice, satisfying checkmark ☑. The goal will then pop into your daily wins section so that you can lookover all that you've done at the end of each day!
 
-In the project directory, you can run:
+Need a fresh start? We got you covered! Just press the restart button 🔃 and all your goals will be wiped away clean, and you'll be ready for a new day to conquer. Use this site to celebrate yourself and see just all you've accomplished each day. Stay present and no matter what happens, tomorrow is a new day, with a fresh set of accomplshments to take on.
 
-### `npm start`
+**Daily Goals live site:** https://workspace.google.com/marketplace/app/import_template_checker/411770798065</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How It's Made:
+This is a fully-responsize Single Page Application created with React. Why React you say? Well, through use of the virtual DOM, React is able to update only the parts of the page that have chenged. This greatly enhances the speed of the website's performance when adding and updating items. Additionally, through use of JSX (or JavaScript if preffered) you are able to conditionally write the compontents of HTML to be rendered on the client's side, and use JavaScript directly within your code. Additionally, compontents allow you to render the same code within different pages or places within the spplication withinout having to re-wite the code. This makes for a more modular application. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Additionally, through use of the localStorage API, this application sets a variable on the client device that contains an array of daily goals objects, containing the goals' text and assocaited properties. This allows users to navigate away from the site an any time, and as long as they access the site on the same device, they'll be able to still have their goals saved.
 
-### `npm test`
+## Optimizations
+<ul>
+  <li>Used localStorage to save the daily goals objects on the client's device in order to inrease the speed of accessing and rendering the goals without having to make a request to a database for the inforamtion (through use of a custom API) </li>
+  <li>Used React for the project so that each time the page is updated, only the changes pieces of the DOM are re-rendered</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Lessons Learned:
+<ul>
+  <li>I learned to be very intentional when setting and maintaining a variable in local storage. This application can remove the variable, and ensure that each time the page it re-loaded, either the same variable is maintained, or the variable is re-created and initialized to an empty array</li>
+  <li>I learned to be more intentional in brainstorming ways to improve time and space complexity. As an optimization I would like to make to the application is using hash tables to add, remove, and keep track of goals so that goals can be accessed by their ids in constant time.</li>
+  <li>Lastly, I also learned of the importance of keeping the user in mind, and made sure to allow users to add goals to their wins, change goals from a win to a goals to complete, edit goals, and remove goals</li>
+  </br>
+  This project was a ton of fun to create, while getting mroe intimate knowledge of React. Thanks for stopping by, enjoy the application, and don't forget to celerate your accomplishments!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ![](https://media.giphy.com/media/UUyxgSQXI6mzbC8Lsw/giphy-downsized-large.gif)
+    
