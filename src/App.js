@@ -3,6 +3,7 @@ import DailyGoalsHeader from './components/DailyGoalsHeader';
 import DailyGoals from './components/DailyGoals';
 import DailySuccessesHeader from './components/DailySuccessesHeader';
 import DailySuccesses from './components/DailySuccesses';
+import DailyGoalsFooter from './components/DailyGoalsFooter';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <DailyGoals />
       <DailySuccessesHeader />
       <DailySuccesses />
+      <DailyGoalsFooter />
     </div>
   );
 }

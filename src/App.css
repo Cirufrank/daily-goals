@@ -71,9 +71,6 @@ section {
 /* DAILY GOALS BODY */
 
 /* DAILY WINS HEADER */
-.successesHeaderContainer {
-  border-bottom: 2px solid black;
-}
 
 /* DAILY WINS HEADER */
 
@@ -87,6 +84,26 @@ section {
 }
 
 /* DAILY WINS BODY */
+
+/* DAILY GOALS FOOTER */
+span, a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: rgb(43, 43, 245);
+}
+a:hover {
+  color: rgb(0, 0, 163);
+}
+footer {
+  margin-top: 1%;
+  border-top: 2px solid black;
+  width: 90%;
+  padding-top: 1%;
+}
+/* DAILY GOALS FOOTER */
 
 /*MEDIA QUERIES*/
 
@@ -111,6 +128,9 @@ section {
   }
   h1, h2, .emoji {
     font-size: 3.5rem;
+  }
+  span, a {
+    font-size: .9rem;
   }
 }
 
