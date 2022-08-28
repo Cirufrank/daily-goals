@@ -2,11 +2,11 @@
 
 ![](https://media.giphy.com/media/jO2VAnKyAtgcSWxxVf/giphy.gif)
 
-Hey, I get it. You sometimes don't feel like you're getting anything done in the sea of tasks you have on your plate. Well let me let you in on a secret... you are accomplishing FAR more than you know. Don't believe me? Well, try out this lovely daily goals web application! Each day come on over and set some goals that you'd like to complete by the end of the day. Then, as you finish them, retrun to the website and given them a nice, satisfying checkmark ☑. The goal will then pop into your daily wins section so that you can lookover all that you've done at the end of each day!
+Hey, I get it. You sometimes don't feel like you're getting anything done in the sea of tasks you have on your plate. Well let me let you in on a secret... you are accomplishing FAR more than you know. Don't believe me? Well, <a href="https://my-daily-goals.netlify.app/" target="_blank">try out this lovely daily goals web application</a>! Each day come on over and set some goals that you'd like to complete by the end of the day. Then, as you finish them, retrun to the website and given them a nice, satisfying checkmark ☑. The goal will then pop into your daily wins section so that you can lookover all that you've done at the end of each day!
 
 Need a fresh start? We got you covered! Just press the restart button 🔃 and all your goals will be wiped away clean, and you'll be ready for a new day to conquer. Use this site to celebrate yourself and see just all you've accomplished each day. Stay present and no matter what happens, tomorrow is a new day, with a fresh set of accomplshments to take on.
 
-**Daily Goals live site:** https://workspace.google.com/marketplace/app/import_template_checker/411770798065</br>
+**Daily Goals live site:** https://my-daily-goals.netlify.app/</br>
 
 ## How It's Made:
 This is a fully-responsize Single Page Application created with React. Why React you say? Well, through use of the virtual DOM, React is able to update only the parts of the page that have chenged. This greatly enhances the speed of the website's performance when adding and updating items. Additionally, through use of JSX (or JavaScript if preffered) you are able to conditionally write the compontents of HTML to be rendered on the client's side, and use JavaScript directly within your code. Additionally, compontents allow you to render the same code within different pages or places within the spplication withinout having to re-wite the code. This makes for a more modular application. 
