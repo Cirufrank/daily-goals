@@ -17,6 +17,9 @@ Additionally, through use of the localStorage API, this application sets a varia
 
 ## Optimizations
 <ul>
+  <li>
+  Used the useReactToPrint module's functionality in order to allow users to print out their daily goals and wins after clicking the print icon unicode character button, thus allowing them to save pages of their goals and wins if they'd like to look back on them 
+  </li>
   <li>Used localStorage to save the daily goals objects on the client's device in order to inrease the speed of accessing and rendering the goals without having to make a request to a database for the inforamtion (through use of a custom API) </li>
   <li>Used React for the project so that each time the page is updated, only the changes pieces of the DOM are re-rendered</li>
 </ul>
