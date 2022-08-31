@@ -74,7 +74,7 @@ section {
 }
 
 section div {
-  margin-bottom: 1%;
+  margin-bottom: .5%;
 }
 /* DAILY GOALS BODY */
 
@@ -111,6 +111,7 @@ a:hover {
 }
 footer {
   margin-top: 1%;
+  margin-bottom: 5%;
   border-top: 2px solid black;
   width: 90%;
   padding-top: 1%;
