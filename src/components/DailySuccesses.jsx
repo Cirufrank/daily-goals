@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 
-
-
 function DailySuccesses() {
     //This grabs all of the daily goals from the local storage 'dailyGoals' local storage item
     let dailyGoals = JSON.parse(localStorage.getItem(process.env.REACT_APP_LOCAL_STORAGE_GOALS_NAME));
