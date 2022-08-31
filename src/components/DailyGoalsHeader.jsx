@@ -19,8 +19,8 @@ function DailyGoalsHeader(props) {
                 <span className='emoji' role="img" aria-label="A little paper and pencil icon unicode character next to the Daily Goals header for jotting down your goals for the day" focusable="false">📝</span>
             </div>
             <div className='pageEndPadding'>
-                <span className='emoji' onClick={handlePrint} role="button" focusable="true" aria-label='A gray printer incon unicode character signifying that pressing this button will allow you to print out your daily goals and wins for the day'>🖨</span>
-                <span className='emoji' id="refreshPage" onClick={resetLocalStorage} focusable="true" role="button" aria-label='A blue icon with two white arrows pointing in a cricle signifying that pressing this button will reset and erase your daily goals'>🔃</span>
+                <span className='emoji' onClick={handlePrint} role="button" focusable="true" aria-label='A gray printer icon unicode character signifying that pressing this button will allow you to print out your daily goals and wins for the day'>🖨</span>
+                <span className='emoji' id="refreshPage" onClick={resetLocalStorage} focusable="true" role="button" aria-label='A blue icon with two white arrows pointing in a cricle signifying that pressing this button will reset and erase your daily goals so that you can start anew!'>🔃</span>
             </div>
         </header>
     )
