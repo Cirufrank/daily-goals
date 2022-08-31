@@ -6,7 +6,7 @@ function DailySuccessesHeader() {
         <header>
             <div className='successesHeaderContainer'>
                 <h2>DAILY WINS</h2>
-                <span className='emoji'>🏆</span>
+                <span className='emoji' role="img"  aria-label="A little trophy icon unicode character next to the Daily Wins header for celebrating your wins" focusable="false">🏆</span>
             </div>
         </header>
     )

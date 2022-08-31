@@ -59,6 +59,10 @@ button {
   font-weight: 700;
 }
 
+button:hover {
+  filter: brightness(.9);
+}
+
 .singleGoalsContainer,.singleSuccessContainer {
   align-items: center;
   justify-content: space-between;
@@ -68,9 +72,17 @@ section {
   display: flex;
   flex-direction: column;
 }
+
+section div {
+  margin-bottom: 1%;
+}
 /* DAILY GOALS BODY */
 
 /* DAILY WINS HEADER */
+
+span[role="button"]:hover {
+  opacity: .7;
+}
 
 /* DAILY WINS HEADER */
 
