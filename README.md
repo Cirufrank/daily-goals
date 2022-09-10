@@ -2,7 +2,7 @@
 
 ![](https://media.giphy.com/media/jO2VAnKyAtgcSWxxVf/giphy.gif)
 
-Hey, I get it. You sometimes don't feel like you're getting anything done in the sea of tasks you have on your plate. Well let me let you in on a secret... you are accomplishing FAR more than you know. Don't believe me? Well, <a href="https://my-daily-goals.netlify.app/" target="_blank">try out this lovely daily goals web application</a>! Each day come on over and set some goals that you'd like to complete by the end of the day. Then, as you finish them, retrun to the website and given them a nice, satisfying checkmark ☑. The goal will then pop into your daily wins section so that you can lookover all that you've done at the end of each day!
+Hey, I get it. You sometimes don't feel like you're getting anything done in the sea of tasks you have on your plate. Well let me let you in on a secret... you are accomplishing FAR more than you know. Don't believe me? Well, <a href="https://my-daily-goals.netlify.app/" target="_blank">try out this lovely daily goals web application</a>! Each day come on over and set some goals that you'd like to complete by the end of the day. Then, as you finish them, retrun to the website and give them a nice, satisfying checkmark ☑. The goal will then pop into your daily wins section so that you can lookover all that you've done at the end of each day!
 
 Need a fresh start? We got you covered! Just press the restart button 🔃 and all your goals will be wiped away clean, and you'll be ready for a new day to conquer. Use this site to celebrate yourself and see just all you've accomplished each day. Stay present and no matter what happens, tomorrow is a new day, with a fresh set of accomplshments to take on.
 
@@ -11,9 +11,9 @@ Need a fresh start? We got you covered! Just press the restart button 🔃 and a
 ![](./public/dailyGoalsGif.GIF)
 
 ## How It's Made:
-This is a fully-responsize Single Page Application created with React. Why React you say? Well, through use of the virtual DOM, React is able to update only the parts of the page that have chenged. This greatly enhances the speed of the website's performance when adding and updating items. Additionally, through use of JSX (or JavaScript if preffered) you are able to conditionally write the compontents of HTML to be rendered on the client's side, and use JavaScript directly within your code. Additionally, compontents allow you to render the same code within different pages or places within the spplication withinout having to re-wite the code. This makes for a more modular application. 
+This is a fully-responsize Single Page Application created with React. Why React you say? Well, through use of the virtual DOM, React is able to update only the parts of the page that have changed. This greatly enhances the speed of the website's performance when updating the elements rendered through the DOM. Additionally, through use of JSX (or JavaScript if preferred) you are able to conditionally write the compontents of HTML to be rendered on the client's side, and use JavaScript directly within your code. Additionally, components allow you to render the same code within different pages or places within the application without having to re-wite the code. This makes for a more modular application. 
 
-Additionally, through use of the localStorage API, this application sets a variable on the client device that contains an array of daily goals objects, containing the goals' text and assocaited properties. This allows users to navigate away from the site an any time, and as long as they access the site on the same device, they'll be able to still have their goals saved.
+Additionally, through use of the localStorage API, this application sets a variable on the client device that contains an array of daily goals objects, containing the goals' text and assocaited properties. This allows users to navigate away from the site at any time, and as long as they access the site on the same device, they'll be able to still have their goals saved.
 
 ## Optimizations
 <ul>
@@ -27,9 +27,9 @@ Additionally, through use of the localStorage API, this application sets a varia
 
 ## Lessons Learned:
 <ul>
-  <li>I learned to be very intentional when setting and maintaining a variable in local storage. This application can remove the variable, and ensure that each time the page it re-loaded, either the same variable is maintained, or the variable is re-created and initialized to an empty array</li>
-  <li>I learned to be more intentional in brainstorming ways to improve time and space complexity. As an optimization I would like to make to the application is using hash tables to add, remove, and keep track of goals so that goals can be accessed by their ids in constant time.</li>
-  <li>Lastly, I also learned of the importance of keeping the user in mind, and made sure to allow users to add goals to their wins, change goals from a win to a goals to complete, edit goals, and remove goals</li>
+  <li>I learned to be very intentional when setting and maintaining a variable in local storage. This application can remove the variable, and ensure that each time the page is re-loaded, either the same variable is maintained, or the variable is re-created and initialized to an empty array</li>
+  <li>I learned to be more intentional in brainstorming ways to improve time and space complexity. An optimization I would like to make the application is using hash tables to add, remove, and keep track of goals so that goals can be accessed by their ids in constant time.</li>
+  <li>Lastly, I also learned of the importance of keeping the user in mind, and made sure to allow users to add goals to their wins, change goals from a win to a goal to complete, edit goals, and remove goals</li>
   </br>
   This project was a ton of fun to create, while getting mroe intimate knowledge of React. Thanks for stopping by, enjoy the application, and don't forget to celerate your accomplishments!
 
